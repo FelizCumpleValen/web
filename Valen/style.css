@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+}
+
+.menucontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/v1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #040404;
+    border-bottom: 1px solid #918c8c;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+
+.menu .navbar ul li {
+    color: #faf1f1;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    display: none;
+    cursor: pointer;
+}
+
+.header-info h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.header-info h2 {
+
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.swiper-button-prev::after {
+    font-size: 25px;
+}
+
+.swiper-button-next::after {
+    font-size: 25px;
+}
+
+.swiper-button-next {
+    color: white;
+}
+
+.swiper-button-prev {
+    color: white;
+}
+
+.swiper-pagination-bullet {
+    background-color: #D3D2D2;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-activate {
+    background-color: white;
+}
+
+
+.section-content{
+
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider-txt h1 {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider-txt p{
+    font-size: 18px;
+    color: #A7A7A7;
+}
+
+.botones {
+    margin-top: 50px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid #DB241B;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.btn-1:hover {
+    border: 2px solid red;
+    background-color: red;
+}
+
+.slider-img {
+    width: 50%;
+}
+
+.slider-img img {
+    margin-right: 225px;
+    width: 550px;
+}
+
+
+.header2 {
+    background-image: url(images/v5.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gym {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.gym-1 {
+    width: 70%;
+    padding-right: 150px;
+}
+
+.gym-1 h3{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600px;
+    margin-bottom: 35px;
+}
+
+.gym-1 p{
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 35px;
+}
+
+.gym-1 span {
+    color: #A70A15;
+}
+
+.img-2 {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.img-1{
+    width: 250px;
+    margin-right: 20px;
+}
+
+#p {
+    color: red;
+}
+
+.header3 {
+    background-image: url(images/v17.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.header4 {
+    background-image: url(images/posible.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
